@@ -1,0 +1,67 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "itter 1"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "itter 2"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "itter 3"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "itter 4"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "itter 5"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "itter 6"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "itter 7"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "itter 8"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "itter hang"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "right sweep",
+  "choreoAuto": false
+}

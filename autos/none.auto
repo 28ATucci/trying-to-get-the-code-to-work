@@ -1,0 +1,206 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "etter 1"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "SHOOTING_HUB"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "RUNNING"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "etter 2"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "SHOOTING_HUB"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "RUNNING"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "etter 3"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "INTAKING"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "etter 4"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "etter 5"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "RUNNING"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "SHOOTING_HUB"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "etter 6"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "etter 7"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "INTAKING"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "etter 8"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "etter 9"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "RUNNING"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "SHOOTING_HUB"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "etter hang"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 1.0
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "UP"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
