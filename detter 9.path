@@ -1,0 +1,63 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.72798888888889,
+        "y": 3.323655555555555
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 8.32175463623395,
+        "y": 5.697617689015692
+      },
+      "isLocked": false,
+      "linkedName": "detter end 9"
+    },
+    {
+      "anchor": {
+        "x": 3.173655555555556,
+        "y": 5.321266666666666
+      },
+      "prevControl": {
+        "x": 8.308815977175463,
+        "y": 5.594108416547789
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "detter end 10"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.6491228070175383,
+      "rotationDegrees": 0.0
+    },
+    {
+      "waypointRelativePos": 0.9532163742690062,
+      "rotationDegrees": 0.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 1.0,
+    "rotation": -54.32359177813808
+  },
+  "reversed": false,
+  "folder": "detter ",
+  "idealStartingState": {
+    "velocity": 2.0,
+    "rotation": 92.16107948822655
+  },
+  "useDefaultConstraints": true
+}

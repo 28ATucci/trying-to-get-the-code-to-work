@@ -1,0 +1,59 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.355122222222222,
+        "y": 1.7450555555555547
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.8326000000000007,
+        "y": 3.4016111111111105
+      },
+      "isLocked": false,
+      "linkedName": "etter 1 side end 9"
+    },
+    {
+      "anchor": {
+        "x": 1.585311111111111,
+        "y": 3.2749333333333333
+      },
+      "prevControl": {
+        "x": 2.247933333333334,
+        "y": 2.9825999999999997
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5,
+      "rotationDegrees": 179.29093001947575
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": 177.82525588539
+  },
+  "reversed": false,
+  "folder": "etter",
+  "idealStartingState": {
+    "velocity": 1.0,
+    "rotation": 55.2440874464586
+  },
+  "useDefaultConstraints": true
+}

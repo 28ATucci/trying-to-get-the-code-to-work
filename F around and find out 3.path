@@ -1,0 +1,63 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.503866666666667,
+        "y": 3.138511111111111
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 9.595244444444443,
+        "y": 3.5575222222222216
+      },
+      "isLocked": false,
+      "linkedName": "faorund 2"
+    },
+    {
+      "anchor": {
+        "x": 8.065366666666668,
+        "y": 4.678133333333332
+      },
+      "prevControl": {
+        "x": 6.486766666666667,
+        "y": 4.151933333333333
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "faorund 3"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.3418556701030931,
+      "rotationDegrees": 42.26506521221495
+    },
+    {
+      "waypointRelativePos": 0.6173195876288604,
+      "rotationDegrees": 129.36002531693123
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 1.5,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "f round",
+  "idealStartingState": {
+    "velocity": 1.5,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

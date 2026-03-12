@@ -1,0 +1,63 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.7085,
+        "y": 2.3881888888888874
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.165200000000001,
+        "y": 2.388188888888888
+      },
+      "isLocked": false,
+      "linkedName": "fetter 3"
+    },
+    {
+      "anchor": {
+        "x": 2.705922222222222,
+        "y": 2.3881888888888874
+      },
+      "prevControl": {
+        "x": 4.040911111111112,
+        "y": 2.4076777777777774
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "fetter 4"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.43009037745879886,
+      "rotationDegrees": 178.67465741264897
+    },
+    {
+      "waypointRelativePos": 0.8447634237107834,
+      "rotationDegrees": 180.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 1.0,
+    "rotation": 51.604835496753964
+  },
+  "reversed": false,
+  "folder": "fetter",
+  "idealStartingState": {
+    "velocity": 1.0,
+    "rotation": 178.79395122077997
+  },
+  "useDefaultConstraints": true
+}

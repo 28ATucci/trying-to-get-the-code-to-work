@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.4854777777777777,
+        "y": 7.377344444444444
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.7156666666666665,
+        "y": 7.250666666666666
+      },
+      "isLocked": false,
+      "linkedName": "faorund 5"
+    },
+    {
+      "anchor": {
+        "x": 1.3904222222222222,
+        "y": 4.853533333333332
+      },
+      "prevControl": {
+        "x": 2.1699777777777784,
+        "y": 5.447944444444444
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0.5,
+    "rotation": -90.0
+  },
+  "reversed": false,
+  "folder": "f round",
+  "idealStartingState": {
+    "velocity": 0.5,
+    "rotation": 177.83892051177364
+  },
+  "useDefaultConstraints": true
+}

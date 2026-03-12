@@ -1,0 +1,65 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.757222222222223,
+        "y": 2.709755555555556
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 9.127511111111112,
+        "y": 0.760866666666667
+      },
+      "isLocked": false,
+      "linkedName": "etter 1 side end 7"
+    },
+    {
+      "anchor": {
+        "x": 4.265033333333333,
+        "y": 0.6634222222222217
+      },
+      "prevControl": {
+        "x": 6.457533333333334,
+        "y": 0.5075111111111108
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "etter 1 side end 8"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [
+    {
+      "fieldPosition": {
+        "x": 4.62,
+        "y": 4.035
+      },
+      "rotationOffset": 0.0,
+      "minWaypointRelativePos": 0.22133995037220683,
+      "maxWaypointRelativePos": 0.8387096774193457,
+      "name": "Point Towards Zone"
+    }
+  ],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 2.0,
+    "rotation": 90.54565759341577
+  },
+  "reversed": false,
+  "folder": "etter",
+  "idealStartingState": {
+    "velocity": 1.0,
+    "rotation": -90.0
+  },
+  "useDefaultConstraints": true
+}
