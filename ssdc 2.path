@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.3319555555555556,
+        "y": 6.022866666666666
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.4410258434198286,
+        "y": 5.655969945367241
+      },
+      "isLocked": false,
+      "linkedName": "ssdc"
+    },
+    {
+      "anchor": {
+        "x": 1.3514444444444444,
+        "y": 4.8340444444444435
+      },
+      "prevControl": {
+        "x": 1.3103446976181048,
+        "y": 5.080642925402479
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -88.22119968432615
+  },
+  "reversed": false,
+  "folder": "simple shoot depot climb",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

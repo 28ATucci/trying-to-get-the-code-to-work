@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.524455555555555,
+        "y": 0.6536777777777774
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.3941000000000003,
+        "y": 0.6829111111111104
+      },
+      "isLocked": false,
+      "linkedName": "orbit 4"
+    },
+    {
+      "anchor": {
+        "x": 0.6693333333333333,
+        "y": 0.6536777777777774
+      },
+      "prevControl": {
+        "x": 1.984833333333331,
+        "y": 0.6829111111111104
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 1.0,
+    "rotation": -0.6295986084102239
+  },
+  "reversed": false,
+  "folder": "orbit",
+  "idealStartingState": {
+    "velocity": 1.0,
+    "rotation": 0.9548412538721771
+  },
+  "useDefaultConstraints": true
+}

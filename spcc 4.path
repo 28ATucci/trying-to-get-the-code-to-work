@@ -1,0 +1,59 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.860733333333334,
+        "y": 3.7621555555555553
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.587888888888889,
+        "y": 0.5659777777777775
+      },
+      "isLocked": false,
+      "linkedName": "spcc 3"
+    },
+    {
+      "anchor": {
+        "x": 3.6219,
+        "y": 0.6536777777777774
+      },
+      "prevControl": {
+        "x": 7.529422222222223,
+        "y": 0.6049555555555548
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "spcc 4"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5,
+      "rotationDegrees": 0.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 2.0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "spcc",
+  "idealStartingState": {
+    "velocity": 2.0,
+    "rotation": -90.0
+  },
+  "useDefaultConstraints": true
+}

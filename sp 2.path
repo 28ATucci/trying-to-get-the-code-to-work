@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.539166666666667,
+        "y": 1.9204555555555545
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.704065733786791,
+        "y": 2.145746528315361
+      },
+      "isLocked": false,
+      "linkedName": "sp"
+    },
+    {
+      "anchor": {
+        "x": 7.7535444444444455,
+        "y": 3.4893111111111113
+      },
+      "prevControl": {
+        "x": 7.6926667980081564,
+        "y": 3.213676016461738
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "sp 2"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0.5,
+    "rotation": -90.0
+  },
+  "reversed": false,
+  "folder": "shoot pass",
+  "idealStartingState": {
+    "velocity": 0.5,
+    "rotation": -91.20604877921996
+  },
+  "useDefaultConstraints": true
+}

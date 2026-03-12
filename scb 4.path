@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.3904222222222222,
+        "y": 5.944911111111111
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.8319204884706024,
+        "y": 5.398364666943776
+      },
+      "isLocked": false,
+      "linkedName": "scb 3"
+    },
+    {
+      "anchor": {
+        "x": 1.7618544935805986,
+        "y": 5.477660485021398
+      },
+      "prevControl": {
+        "x": 1.2820187514997556,
+        "y": 6.076685738502616
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "scb 4"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 1.0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "scb",
+  "idealStartingState": {
+    "velocity": 1.0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}
